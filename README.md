@@ -1,4 +1,4 @@
-# Make Arctic / Antarctic Logo
+# Make Arctic / Antarctic logos
 
 Python script to generate circular polar projection logos for Arctic and Antarctic regions using Cartopy and Matplotlib.
 
@@ -23,10 +23,17 @@ python main.py
 ```
 
 This creates:
-- `output/arctic.png`
-- `output/antarctic.png`
-- `output/arctic-filled.png`
-- `output/antarctic-filled.png` 
+- `output/arctic.png` - Transparent ocean
+- `output/antarctic.png` - Transparent ocean
+- `output/arctic_filled.png` - White ocean fill
+- `output/antarctic_filled.png` - White ocean fill
+
+### Example Output
+
+<p align="center">
+  <img src="output/arctic_filled.png" alt="Arctic Logo (Filled)" width="300"/>
+  <img src="output/antarctic_filled.png" alt="Antarctic Logo (Filled)" width="300"/>
+</p>
 
 By default, logos have transparent ocean areas (only land and border are visible), making them ideal for overlaying on any background; set `fill_ocean=True` to add a solid ocean color inside the circle while keeping the outside transparent.
 
