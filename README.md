@@ -7,7 +7,7 @@ Python script to generate circular polar projection logos for Arctic and Antarct
 ```bash
 # create virtual env
 pip -m venv .venv
-source .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
