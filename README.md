@@ -2,6 +2,8 @@
 
 Python script to generate circular polar projection logos for Arctic and Antarctic regions using Cartopy and Matplotlib.
 
+## 
+
 ## Requirements
 
 ```bash
@@ -15,12 +17,16 @@ pip install -r requirements.txt
 Generate default logos (transparent ocean, black land):
 
 ```bash
-python arctic_antarctic_logo.py
+python main.py
 ```
 
 This creates:
-- `arctic_logo.png` - North Polar Stereographic view
-- `antarctic_logo.png` - South Polar Stereographic view
+- `output/arctic.png`
+- `output/antarctic.png`
+- `output/arctic-filled.png`
+- `output/antarctic-filled.png` 
+
+By default, logos have transparent ocean areas (only land and border are visible), making them ideal for overlaying on any background; set `fill_ocean=True` to add a solid ocean color inside the circle while keeping the outside transparent.
 
 ### Custom Options
 
