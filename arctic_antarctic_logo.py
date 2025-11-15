@@ -88,7 +88,7 @@ def _make_polar_logo(
 
 
 def make_arctic_logo(
-    filename="arctic_logo.png",
+    filename="output/arctic_logo.png",
     **kwargs
 ):
     _make_polar_logo(
@@ -100,7 +100,7 @@ def make_arctic_logo(
 
 
 def make_antarctic_logo(
-    filename="antarctic_logo.png",
+    filename="output/antarctic_logo.png",
     **kwargs
 ):
     _make_polar_logo(
